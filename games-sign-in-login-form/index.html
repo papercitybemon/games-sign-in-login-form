@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="login-form">
+      <div class="logo"><img src="images/logo.png" alt="logo"></div>
+      <div class="social-media">
+        <button class="facebook"><img src="images/facebook.png" alt="facebook"></button>
+        <button class="google"><img src="images/google.png" alt="google"></button>
+        <button class="playstation"><img src="images/playstation.png" alt="playstation"></button>
+        <button class="xbox"><img src="images/xbox.png" alt="xbox"></button>
+        <button class="switch"><img src="images/switch.png" alt="switch"></button>
+      </div>
+      <h6>Sign In</h6>
+      <form action="">
+        <div class="textbox">
+          <input type="text" placeholder="Username \ Email">
+          <span class="check-message hidden">Required</span>
+        </div>
+        <div class="textbox">
+          <input type="password" placeholder="Password">
+          <span class="check-message hidden">Required</span>
+        </div>
+        <div class="options">
+          <label class="remember-me">
+            <span class="checkbox">
+              <input type="checkbox">
+              <span class="checked"></span>
+            </span>
+            Remember me
+          </label>
+          <a href="#">Forgot Your Password?</a>
+        </div>
+        <input type="submit" value="Log In Now" class="login-btn" disabled>
+        <div class="privacy-link">
+          <a href="#">Privacy Policy</a>
+        </div>
+      </form>
+      <div class="dont-have-account">
+        Don't have an Epic Games account?
+        <a href="#">Sign Up</a>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
